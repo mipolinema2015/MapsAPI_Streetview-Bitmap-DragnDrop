@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/view_root"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/sticker1"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/sticker1"/>
+    <ImageView
+        android:id="@+id/sticker2"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:src="@mipmap/sticker1"/>
+    <ImageView
+        android:id="@+id/sticker3"
+        android:layout_width="225dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:src="@mipmap/sticker1"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Capture"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
